@@ -1,0 +1,63 @@
+.secondNavigation .title {
+  font-family: vazir-bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+  text-align: right;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0.5rem 0;
+  padding: 0 2rem;
+  color: rgb(29, 29, 29);
+  cursor: pointer;
+}
+
+.secondNavigation .title svg {
+  font-size: 12px;
+  margin-right: 1rem;
+}
+
+.secondNavigation .category {
+  font-size: 0.857rem;
+  line-height: 2.27;
+  font-weight: 400;
+  color: #81858b;
+  padding: 0 1.4rem;
+  cursor: pointer;
+}
+
+.secondNavigation .base-category {
+  direction: rtl;
+  text-align: right;
+  font-size: 14px;
+  line-height: 30px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  position: relative;
+  padding: 0 1rem;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.secondNavigation .category:hover,
+.secondNavigation .base-category:hover,
+.secondNavigation .title p:hover,
+.secondNavigation .title p:hover svg {
+  color: #ef394e !important;
+}
+
+.secondNavigation .base-category::before {
+  top: 20%;
+  right: 0;
+  width: 2px;
+  height: 60%;
+  content: " ";
+  margin-left: 8px;
+  border-radius: 50px;
+  background-color: #ef394e;
+  position: absolute;
+}

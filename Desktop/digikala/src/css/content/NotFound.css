@@ -1,0 +1,26 @@
+.error-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  direction: rtl;
+  background: linear-gradient(to right, #82cccb00, rgba(140, 204, 190, 0.6));
+}
+
+.error-container strong {
+  font-size: 22px;
+  color: #ffa700;
+  margin-bottom: 5vh;
+}
+
+.error-container p {
+  font-size: 18px;
+  color: white;
+  background-color: #ffa700;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px 2px #97979782;
+}

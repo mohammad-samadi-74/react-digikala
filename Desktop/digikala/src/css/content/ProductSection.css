@@ -1,0 +1,112 @@
+.slick-slide > div {
+  height: 100% !important;
+}
+
+.products-section .slick-slide {
+  padding: 8px;
+}
+
+.products-section .watch-all-btn {
+  padding: 9px 16px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  line-height: 1.57;
+  font-family: vazir-bold;
+  font-size: 1rem;
+}
+
+.products-section .watch-all-btn .arrowBackIcon {
+  font-size: 1.42rem;
+  padding: 0.3rem;
+}
+
+.product-item {
+  border-radius: 5px;
+  cursor: pointer;
+  height: 100%;
+  /* box-shadow: 3px 2px 5px 3px #1e1e1e54; */
+  transition: all 0.4s ease;
+  filter: grayscale(0.1);
+}
+
+.product-item:hover {
+  transform: scale(1.03, 1.03);
+  filter: hue-rotate(0.5);
+  filter: grayscale(0);
+}
+
+.product-item .title {
+  direction: rtl;
+  margin-top: 14px;
+  font-size: 0.857rem;
+  overflow: hidden;
+  min-width: 90%;
+  min-height: 160px;
+  text-align: justify;
+  line-height: 22px;
+  color: #5b5b5b;
+  margin-bottom: 20px;
+  padding: 0 0.5rem;
+  font-family: vazir-bold;
+}
+
+.product-item img {
+  padding: 1.5rem;
+  max-width: 85%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.product-item .discount-percent {
+  margin-right: 1rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.product-item del {
+  color: gray;
+}
+
+.product-item .offPercentIcon {
+  background-color: #fb3449;
+  font-family: vazir-d-bold;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0 8px;
+  letter-spacing: 0;
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  line-height: 1.375;
+  margin-right: 8px;
+  min-width: 43px;
+  height: 23px;
+}
+
+.product-item del {
+  font-size: 1.1rem;
+  line-height: 28px;
+}
+
+.product-item .price {
+  font-family: vazir-d-bold;
+}
+
+.product-item .expiration {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.product-item .expiration .clock-icon {
+  font-size: 1.4rem !important;
+  color: #737373;
+}
+
+.product-item .expiration span {
+  font-size: 15px;
+  color: #737373;
+}

@@ -1,0 +1,264 @@
+#footer {
+  position: relative;
+  z-index: 10;
+}
+.footer-logo {
+  width: 113px;
+  height: 30px;
+}
+
+.back-to-top-button {
+  background-color: white;
+  border: 1px solid #a1a3a8;
+  border-radius: 8px;
+  color: #a1a3a8;
+  cursor: pointer;
+  height: 40px;
+  padding: 5px 16px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 215%;
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.back-to-top-button:hover {
+  color: #a1a3a8;
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.back-to-top-button svg {
+  margin: 0 0.3rem 0 0;
+}
+
+.phone-number {
+  line-height: 217%;
+  color: #424750;
+  margin-top: 10px;
+  font-size: 0.857rem;
+}
+
+.phone {
+  margin-right: 9px;
+  letter-spacing: 3px;
+  color: #424750;
+}
+
+.post {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.post > div {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.857rem;
+  line-height: 21px;
+  color: #738a9e;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.post img {
+  width: 54px;
+  padding: 0.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.footer-navigation {
+  padding-top: 0.75rem;
+}
+
+.footer-navigation h3,
+.footer-navigation p {
+  font-size: 1.115rem;
+  line-height: 34.4px;
+  color: #535861;
+  font-weight: 600;
+  display: block;
+  text-align: right;
+}
+
+.footer-navigation ul {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+}
+
+.footer-navigation ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-navigation ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 215%;
+  color: #81858b;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+
+.footer-socials span {
+  flex: 0.25;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.footer-socials span a {
+  display: block;
+  color: #a1a3a8;
+  text-decoration: none;
+}
+
+.footer-navigation .aparat::before {
+  content: "\E188\00FE0E";
+}
+
+.footer-socials span svg {
+  width: 30px;
+  height: 30px;
+  color: #a1a3a8;
+}
+
+.news input {
+  border-radius: 8px;
+  background: #f0f0f1;
+  border: none;
+  color: #81858b;
+  font-size: 15px;
+  flex: 1;
+  line-height: 215%;
+  padding: 8px 20px 8px 12px;
+  letter-spacing: -0.8px;
+}
+
+.news button {
+  background: #e0e0e2;
+  width: 57px;
+  height: 48px;
+  border: none;
+  color: #fff;
+  margin-right: 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.news input:focus {
+  border: 0;
+  outline: 0;
+}
+
+.app-download {
+  background-color: #3c4b6d;
+  margin: 28px 0;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+.app-download img {
+  height: 44px;
+}
+
+.app-download p {
+  font-size: 1.286rem;
+  line-height: 210%;
+  font-weight: 400;
+  color: rgb(247, 247, 247);
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.app-download__right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-download__left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app-download__left img {
+  margin-left: 15px;
+}
+
+.copyright h5 {
+  font-size: 1rem;
+  line-height: 215%;
+  font-weight: 700;
+  color: #424750;
+  margin: 0 0 8px;
+  text-align: right;
+}
+
+.copyright .description p {
+  font-size: 0.857rem;
+  line-height: 26px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  color: #b0b4b9;
+}
+
+.copyright .copyright-images > div {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #e5e5ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  padding: 2px;
+  border-radius: 8px;
+  margin-top: 21px;
+}
+
+.copyright .copyright-images > div img {
+  height: 100px;
+}
+
+.copyright .copyright-text p {
+  color: #81858b;
+  margin-top: 28px;
+  user-select: none;
+  line-height: 57px;
+  border-top: 1px solid #e0e0e2;
+  text-align: center;
+}
+
+.brands-container {
+  background-color: #f2f2f2;
+}
+
+.brands > div > div {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  border: 1px solid #e0e0e0;
+}
+
+#footer .aparat > img {
+  width: 30px;
+  height: 30px;
+}
+
+#footer .aparat::before {
+  content: "";
+}

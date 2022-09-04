@@ -1,0 +1,424 @@
+#second-navigation-header {
+  position: sticky;
+  top: 70px;
+  box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.04);
+  z-index: 19;
+}
+
+.secondNavigation {
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondNavigation button {
+  border: none !important;
+}
+
+.secondNavigation__right .MuiSvgIcon-root {
+  color: var(--c-light-gray);
+  font-size: 1.2rem !important;
+  margin-left: 5px;
+}
+
+.secondNavigation__right .fa-percent {
+  color: #a1a3a8;
+  font-size: 0.5rem !important;
+  margin-left: 10px;
+  border-radius: 50%;
+  outline: 1px solid #a1a3a8;
+  outline-offset: 3px;
+}
+
+.secondNavigation__right .nav__item button img {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.secondNavigation__right {
+  display: flex;
+  align-items: center;
+}
+
+.secondNavigation__left {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  line-height: 30px;
+  color: var(--c-dark-gray);
+}
+
+.secondNavigation__left .MuiSvgIcon-root {
+  font-size: 1.4rem !important;
+  margin-right: 0.5rem;
+}
+
+.secondNavigation__right > .navigation__parts {
+  display: flex;
+  align-items: center;
+}
+
+#categories {
+  color: var(--c-dark-gray);
+}
+
+#categories:not(:focus) {
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+.secondNavigation__right > .categoriesBtn,
+.secondNavigation__right .nav__item button {
+  font-size: 1rem;
+  color: rgb(97, 97, 97);
+  position: relative;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.secondNavigation__right > .categoriesBtn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 25%;
+  background-color: var(--c-white-gray);
+  width: 1px;
+  height: 60%;
+}
+
+.secondNavigation__right button::after {
+  display: none !important;
+}
+
+#categories:focus,
+#categories:focus-visible,
+#categories:visited {
+  box-shadow: none !important;
+  border: none !important;
+  text-decoration: none;
+}
+
+.navigation__parts > .nav__item {
+  padding: 8px 5px;
+  margin-left: 0.2rem;
+  color: #616161;
+  line-height: 1.37;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.navigation__parts > .nav__item > .dropdown > button {
+  font-size: 0.85rem !important;
+}
+
+.categories-dropdown {
+  inset: -2px 0px auto auto !important;
+  transform: translate(0px, 40px) !important;
+  width: 90vw;
+  max-width: 1200px;
+  direction: rtl;
+  text-align: right !important;
+  border-radius: 20px;
+  box-shadow: 2px 1px 2px 1px #aeaeae7a;
+  border: 2px solid rgb(231, 229, 229);
+}
+
+.categories-dropdown .base-categories > div {
+  padding: 13px 12px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #616161 !important;
+  cursor: pointer;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+}
+
+.categories-dropdown .base-categories {
+  flex: 0.2 1;
+  border-left: 1px solid #f0f0f1;
+  padding-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 0 20px 20px 0;
+}
+
+.categories-dropdown .base-categories > div.activeItem {
+  color: #ef394e !important;
+  background-color: #f9f9f9;
+  border-top: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  font-weight: 400 !important;
+}
+
+.categories-dropdown .base-categories > div.activeItem svg {
+  color: #ef394e !important;
+}
+
+.categories-dropdown svg {
+  width: 18px;
+  height: 18px;
+  margin-left: 0.8rem !important;
+  color: #616161 !important;
+}
+
+.categories-dropdown .small-categories {
+  flex: 0.8;
+  padding-bottom: 1rem;
+}
+
+.small-categories > div:not(.activeTab) {
+  display: none;
+}
+
+.small-categories {
+  border-radius: 20px 0 0 20px;
+}
+
+/* supermarket dropdown */
+.supermarket-dropdown .supermarket {
+  inset: -2px 0px auto auto !important;
+  transform: translate(0px, 40px) !important;
+  direction: rtl;
+  text-align: right;
+  min-width: 600px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.supermarket__right {
+  flex: 0.4;
+}
+
+.supermarket__left {
+  flex: 0.6;
+}
+
+button#supermarket {
+  padding: 8px 5px;
+}
+
+.supermarket-dropdown .supermarket > div:first-child {
+  flex: 0.4;
+  padding: 1rem;
+}
+
+.supermarket-dropdown .supermarket > div:nth-child(2) {
+  flex: 0.6;
+  background-color: #f0f0f1;
+  padding: 1rem;
+  border-radius: 10px 0 0 10px;
+}
+
+.supermarket-dropdown .supermarket > div:nth-child(2) img.jet-image {
+  border-radius: 8px;
+  margin-bottom: 12px;
+  width: auto !important;
+  height: auto !important;
+}
+
+.supermarket-dropdown .supermarket > div:nth-child(2) img.jet-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.jet-div h5 {
+  font-size: 14px;
+  font-size: 1rem;
+  line-height: normal;
+  font-weight: 700;
+  color: #424750;
+  margin-bottom: 4px;
+}
+
+.jet-div h5 span {
+  background: rgba(230, 18, 61, 0.08);
+  border-radius: 73px;
+  padding: 0 6px;
+  font-size: 10px;
+  font-size: 0.714rem;
+  line-height: normal;
+  font-weight: 800;
+  color: #e6123d;
+  margin-right: 4px;
+}
+
+.jet-div p {
+  font-size: 10px;
+  font-size: 0.714rem;
+  line-height: normal;
+  font-weight: 400;
+  color: #81858b;
+}
+
+.jet-div p span {
+  font-size: 10px;
+  font-size: 0.714rem;
+  line-height: normal;
+  font-weight: 800;
+  color: #029d53;
+  margin: 0 3px;
+}
+/* supermarket dropdown */
+
+/* discount dropdown */
+.discounts-dropdown .discounts {
+  inset: -2px 0px auto auto !important;
+  transform: translate(0px, 40px) !important;
+  direction: rtl;
+  text-align: right;
+  min-width: 850px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.discounts-dropdown .discounts__right {
+  flex: 0.6;
+}
+
+.discounts-dropdown .discounts__left {
+  flex: 0.4;
+}
+
+.discounts__right .right-items,
+.discounts__right .left-items {
+  flex: 0.5;
+  padding: 1rem;
+}
+
+.discounts__right .left-items li {
+  padding: 0px;
+}
+
+.discounts__right .left-items svg {
+  width: 22px;
+  height: 22px;
+  margin-left: 1rem;
+}
+
+.discounts__left img {
+  width: auto !important;
+  height: 100% !important;
+  transform: translate(11px, 0px);
+  border-radius: 5px 0 0 5px;
+}
+
+/* discount dropdown */
+
+/* digiplus dropdown */
+.digiplus-dropdown .digiplus {
+  inset: -2px 0px auto auto !important;
+  transform: translate(0px, 40px) !important;
+  direction: rtl;
+  text-align: right;
+  min-width: 600px;
+  padding: 0.4rem;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.digiplus-dropdown .digiplus > div {
+  flex: 0.5;
+}
+
+.digiplus-dropdown .digiplus__right h5 {
+  margin-bottom: 4px;
+  color: #030a16;
+  font-size: 0.857rem;
+  line-height: 1.83;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+  margin-right: 0.5rem;
+}
+
+.digiplus-dropdown .digiplus__right p {
+  color: #62666d;
+  font-size: 0.9rem;
+  line-height: 1.91;
+  font-weight: 400;
+  padding: 0 8px;
+  margin-bottom: 0;
+}
+
+.digiplus-dropdown .digiplus__right svg {
+  color: #1d68a7;
+}
+
+.digiplus-dropdown .digiplus__right img {
+  height: 12.5px !important;
+}
+
+.digiplus-dropdown .digiplus__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button#digiplus {
+  padding: 8px 5px;
+}
+
+.secondNavigation__right .nav__item img {
+  margin-left: 0px;
+}
+
+/* digiplus dropdown */
+
+/* digiclub dropdown */
+.digiclub-dropdown .digiclub {
+  inset: -2px 0px auto auto !important;
+  transform: translate(0px, 40px) !important;
+  direction: rtl;
+  text-align: right;
+  min-width: 850px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+button#digiclub {
+  padding: 8px 5px;
+}
+
+/* digiclub dropdown */
+
+/* digipay */
+.digipay > img {
+  width: 15px;
+  margin-left: 13px !important;
+}
+/* digipay */
+
+.closeNavigationButton {
+  padding: 4px;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  border: 0;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 0 !important;
+  transition: 0.4s;
+}
+
+.closeNavigationButton:hover {
+  background-color: rgba(255, 255, 255, 0.37);
+  color: gray;
+}
