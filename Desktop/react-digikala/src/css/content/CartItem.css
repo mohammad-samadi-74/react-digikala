@@ -1,0 +1,189 @@
+.cart-item {
+  border-bottom: 1px solid #cacaca6e;
+  padding: 1rem 0;
+}
+
+.cart-item:last-of-type {
+  border: none;
+}
+
+/* item image */
+.cart-item .image {
+  flex: 0.3;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.cart-item .image img {
+  width: 65%;
+  margin: 10% 17.555% 0;
+}
+.cart-item .more {
+  flex: 0.7;
+}
+
+.amazing-discount-image {
+  display: flex;
+  justify-content: center;
+}
+
+.amazing-discount-image img {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  max-width: 45%;
+}
+
+/* item name */
+.cart-item .name {
+  font-size: 1.1rem;
+  line-height: 1.375;
+  color: #3f3f3f;
+  text-align: right;
+  margin-bottom: 1rem;
+  margin-top: 6px;
+  font-family: vazir-bold;
+}
+
+/* item garranty */
+.cart-item .garranty {
+  display: flex;
+  align-items: center;
+  color: #a1a1a1;
+  margin-bottom: 0.8rem;
+}
+
+.cart-item .garranty svg {
+  margin-left: 10px;
+}
+
+.cart-item .garranty p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+/* item sellers */
+.cart-item .sellers {
+  display: flex;
+  align-items: center;
+  color: #a1a1a1;
+  margin-bottom: 0.8rem;
+}
+
+.cart-item .sellers svg {
+  margin-left: 10px;
+}
+
+.cart-item .sellers p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+/* item  delivery*/
+.cart-item .delivery {
+  display: flex;
+  align-items: center;
+  color: #535861;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.cart-item .delivery .digikala-store svg {
+  color: #0fabc6;
+  margin-right: 0 !important;
+}
+
+.cart-item .delivery svg {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cart-item .delivery i {
+  color: #a7adb696;
+  font-style: normal !important;
+  margin: 0 0.5rem;
+}
+
+.cart-item .delivery .deliveries {
+  display: flex;
+  align-items: center;
+  color: rgb(129, 133, 139);
+}
+
+.cart-item .delivery .digikala-delivery svg {
+  color: #e6123d;
+}
+
+.cart-item .delivery .digikala-supermarket-fast-delivery svg {
+  color: #6bb927;
+}
+
+/* item discount-information */
+.discount-information {
+  color: rgb(239, 57, 78);
+  margin-top: 20px;
+}
+
+/* item operations */
+.cart-item .operations {
+  display: flex;
+  align-items: center;
+  color: #535861;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.cart-item .operations button {
+  border: 0;
+  margin: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+.cart-item .operations .count {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  color: #0fabc6;
+  font-size: 20px;
+  line-height: 1.467;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.cart-item .operations .count button,
+.cart-item .operations .count span {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-item .operations .count span {
+  padding-bottom: 2px;
+}
+
+.cart-item .operations > button {
+  color: rgb(129, 133, 139) !important;
+  margin-left: 20px;
+}
+
+.cart-item .operations > button svg {
+  margin-left: 5px;
+  font-size: 1.3rem;
+}
+
+/* item price */
+
+.cart-item .price {
+  flex: 1;
+}

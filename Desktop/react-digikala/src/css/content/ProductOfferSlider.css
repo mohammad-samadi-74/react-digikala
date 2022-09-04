@@ -1,0 +1,132 @@
+.products-offer-slider {
+  min-height: 380px;
+}
+
+.products-offer-slider .slick-slide {
+  padding: 10px 4px;
+}
+
+.products-offer-slider .slick-slide .product-item {
+  border-radius: 20px;
+  /* box-shadow: 3px 2px 4px 2px #1e1e1e3d; */
+  filter: none;
+}
+
+.products-offer-slider .slick-slide > div {
+  position: relative;
+  padding: 4px;
+}
+
+.products-offer-slider .slick-slide > div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #e03f3f,
+    #e99a25,
+    rgb(233, 236, 58),
+    rgb(73, 226, 53),
+    #23a6d5,
+    rgb(91, 114, 113),
+    rgb(187, 18, 187)
+  );
+
+  background-size: 400% 400%;
+  animation: gradient 30s linear infinite;
+  height: 100%;
+  z-index: -1;
+  border-radius: 20px;
+  filter: blur(2px);
+  overflow: hidden;
+  opacity: 0.2;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 100%;
+  }
+  12.5% {
+    background-position: 100% 200%;
+  }
+  25% {
+    background-position: 200% 300%;
+  }
+  37.5% {
+    background-position: 300% 400%;
+  }
+  62.5% {
+    background-position: 400% 300%;
+  }
+  75% {
+    background-position: 300% 200%;
+  }
+  87.5% {
+    background-position: 200% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.products-offer-slider img {
+  padding: 0rem !important;
+  margin-bottom: 1rem;
+}
+.products-offer-title {
+  font-size: 18px;
+  font-family: vazir-bold;
+  color: rgb(81, 81, 81);
+  padding: 0 1rem;
+}
+
+.products-offer-sort {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0.3rem 1rem;
+  display: inline;
+  position: relative;
+  color: rgb(104, 104, 104);
+}
+
+.products-offer-information {
+  position: relative;
+  padding-bottom: 0.6rem;
+  direction: rtl;
+  text-align: right;
+}
+.products-offer-information::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+  width: 98%;
+  height: 1px;
+  background-color: #dfdfdf;
+}
+
+.products-offer-sort::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  margin-right: 0.3rem;
+}
+
+.products-offer-sort::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: 100%;
+  width: 10%;
+  height: 1px;
+  background-color: white;
+  z-index: 1;
+  margin-right: 0.3rem;
+}

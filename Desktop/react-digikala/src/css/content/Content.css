@@ -1,0 +1,95 @@
+.advertise-row > div{
+  padding:0 .5rem;
+}
+
+.moment-offer-product h4{
+  font-size: 14px;
+  font-weight: 500;
+  color:rgb(110, 110, 110);
+  padding:0 1rem 1rem;
+  position: relative;
+}
+.moment-offer-product{
+  border: 1px solid rgba(0,191,214,.3);
+}
+.moment-offer-product h4::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left:1%;
+  width:98%;
+  height:1px;
+  background-color: #dfdfdf;  
+}
+
+.moment-offer-product .title{
+  margin-top: 14px;
+  font-size: .857rem;
+  overflow: hidden;
+  min-width: 90%;
+  min-height: 50px;
+  text-align: right;
+  line-height: 25px;
+  color: #5b5b5b;
+  margin-bottom: 20px;
+  padding:0 .5rem;
+  font-weight: 500;
+}
+
+.middle-navigation-title{
+  color: #656565;
+  margin-bottom: 24px;
+  font-size: 1.357rem;
+  line-height: 1.158;
+  opacity: .72;
+  text-align: center;
+}
+
+.customise-panel img{
+  width:60px;
+  height:60px;
+}
+
+.customise-panel h4{
+  color: #232933;
+margin-top: 24px;
+font-size: 18px;
+line-height: 34px;
+text-align: center;
+}
+
+.customise-panel p{
+  color: #62666d;
+  margin: 24px 0;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.customise-panel a.login__button{
+  padding:9px 18px;
+  font-size: 1rem;
+  line-height: 28px;
+  color:white;
+  text-decoration: none;
+  background-color: #ef394e;
+  border:1px solid #ef394e;
+  direction: rtl;
+  border-radius: 8px;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.customise-panel a.login__button svg{
+  font-size: 1.4rem;
+  margin-left: .5rem;
+}
+
+.customise-panel a.signup__button{
+  color: #81858b;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: none;
+}

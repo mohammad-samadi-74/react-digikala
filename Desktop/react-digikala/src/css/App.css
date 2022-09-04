@@ -1,0 +1,143 @@
+/* variables */
+:root {
+  /* colors */
+  --c-red: #ef394e;
+  --c-green: #6bb927;
+  --c-darkgreen: #00a049;
+  --c-gray: #6f6f6f;
+  --c-light-gray: #a1a3a8;
+  --c-white-gray: #d9d8d8;
+  --c-dark-gray: rgb(97, 97, 97);
+  --c-dark: #212529;
+  --c-light-blue: 1px solid rgba(0, 191, 214, 0.3);
+  --c-blue: #00bfd6;
+}
+
+.bg-gray {
+  background-color: #f2f2f2 !important;
+  color: #81858b !important;
+}
+
+.bg-green {
+  background-color: var(--c-darkgreen) !important;
+  color: #fff !important;
+}
+.text-green {
+  color: var(--c-darkgreen) !important;
+}
+/* fonts */
+@font-face {
+  font-family: "vazir";
+  src: url("./fonts/Vazir-Medium.eot"), url("./fonts/Vazir-Medium.ttf"),
+    url("./fonts/Vazir-Medium.woff"), url("./fonts/Vazir-Medium.woff2");
+}
+
+@font-face {
+  font-family: "vazir-bold";
+  src: url("./fonts/Vazir-Bold.eot"), url("./fonts/Vazir-Bold.ttf"),
+    url("./fonts/Vazir-Bold.woff"), url("./fonts/Vazir-Bold.woff2");
+}
+
+@font-face {
+  font-family: "vazir-light";
+  src: url("./fonts/Vazir-Light.eot"), url("./fonts/Vazir-Light.ttf"),
+    url("./fonts/Vazir-Light.woff"), url("./fonts/Vazir-Light.woff2");
+}
+
+@font-face {
+  font-family: "vazir-d";
+  src: url("./fonts/Vazir-Medium-FD-WOL.eot"),
+    url("./fonts/Vazir-Medium-FD-WOL.ttf"),
+    url("./fonts/Vazir-Medium-FD-WOL.woff"),
+    url("./fonts/Vazir-Medium-FD-WOL.woff2");
+}
+
+@font-face {
+  font-family: "vazir-d-bold";
+  src: url("./fonts/Vazir-Bold-FD-WOL.eot"),
+    url("./fonts/Vazir-Bold-FD-WOL.ttf"), url("./fonts/Vazir-Bold-FD-WOL.woff"),
+    url("./fonts/Vazir-Bold-FD-WOL.woff2");
+}
+
+/* base classes */
+.font-vazir {
+  font-family: vazir;
+}
+.font-vazir-bold {
+  font-family: vazir-bold;
+}
+.font-vazir-light {
+  font-family: vazir-light;
+}
+.font-vazir-d-bold {
+  font-family: vazir-bold;
+}
+.font-vazir-d {
+  font-family: vazir-d;
+}
+.font-number {
+  font-family: vazir-d !important;
+}
+.font-number-b {
+  font-family: vazir-d-bold !important;
+}
+.rtl {
+  direction: rtl !important;
+}
+.container-xl {
+  min-width: 1009px;
+  max-width: 1360px;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.col {
+  padding: 0px;
+}
+.bg-red {
+  background-color: #ef394e;
+}
+
+.bg-green {
+  background-color: #6bb927;
+}
+
+.shadow-sm {
+  box-shadow: 0 0 6px 3px #cacaca5e, 0 0 15px 0px #eaeaebb0 !important;
+}
+
+.rounded-lg {
+  border-radius: 0.8rem !important;
+}
+
+html,
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  font-family: vazir, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background: #f5f5f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+  margin: 0;
+  outline: 0;
+}
+button:focus {
+  box-shadow: none !important;
+}
+
+@import "./Responsive.css";
